@@ -32,7 +32,7 @@
 
   <h1>Szövegelemzés – elemez-core</h1>
 <amp-list width="auto" height="400" layout="fixed-height"
-          src="../api/amp-szoveg.php?__amp_source_origin=http://localhost"
+          src="../api/amp-szoveg.json"
           single-item>
   <template type="amp-mustache">
     {{{szoveg}}}
