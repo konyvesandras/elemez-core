@@ -28,74 +28,17 @@
     .word.highlighted {
       background: #ffeb3b;
     }
-    .save-btn {
-      margin-top: 1rem;
-      padding: 0.5rem 1rem;
-      background: #2196f3;
-      color: #fff;
-      border-radius: 4px;
-      cursor: pointer;
-      display: inline-block;
-    }
   </style>
-<script type="module" src="js/main.js"></script>
 
+  <!-- Külső moduláris JS -->
+  <script type="module" src="js/main.js"></script>
 </head>
 <body>
 
   <h1>Szövegelemzés – elemez-core (interaktív nézet)</h1>
 
+  <!-- Szavak ide kerülnek -->
   <div id="words"></div>
-  <div class="save-btn" onclick="saveHighlights()">Kiemelések mentése</div>
-
-  <script>
-    let highlights = [];
-
-    // Szavak betöltése az API-ból
-    async function loadWords() {
-      const res = await fetch('../api/szoveg.php');
-      const data = await res.json();
-
-      const container = document.getElementById('words');
-      container.innerHTML = '';
-
-      data.szokivonat.forEach(word => {
-        const span = document.createElement('span');
-        span.textContent = word;
-        span.className = 'word';
-        if (data.kiemeltek.includes(word)) {
-          span.classList.add('highlighted');
-          highlights.push(word);
-        }
-        span.addEventListener('click', () => toggleHighlight(span, word));
-        container.appendChild(span);
-      });
-    }
-
-    // Kiemelés váltása
-    function toggleHighlight(span, word) {
-      if (span.classList.contains('highlighted')) {
-        span.classList.remove('highlighted');
-        highlights = highlights.filter(w => w !== word);
-      } else {
-        span.classList.add('highlighted');
-        if (!highlights.includes(word)) highlights.push(word);
-      }
-    }
-
-    // Kiemelések mentése az API-ba
-    async function saveHighlights() {
-      const res = await fetch('../api/kiemeles.php', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ words: highlights })
-      });
-      const result = await res.json();
-      alert('Mentve: ' + result.count + ' szó');
-    }
-
-    loadWords();
-  </script>
 
 </body>
 </html>
