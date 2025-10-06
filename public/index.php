@@ -32,10 +32,23 @@
 
   <h1>Szövegelemzés – elemez-core</h1>
 <amp-list width="auto" height="400" layout="fixed-height"
-          src="../api/amp-szoveg.json"
-          single-item>
+          src="../api/amp-szoveg.json">
   <template type="amp-mustache">
-    {{{szoveg}}}
+    {{#items}}
+      {{#tipus == "meta"}}
+        <div class="meta">
+          <strong>{{cim}}</strong><br>
+          <em>{{datum}}</em><br>
+          <span>{{szerzo}}</span>
+        </div>
+      {{/tipus == "meta"}}
+
+      {{#tipus == "szoveg"}}
+        <div class="content">
+          {{{szoveg}}}
+        </div>
+      {{/tipus == "szoveg"}}
+    {{/items}}
   </template>
 </amp-list>
 </body>
