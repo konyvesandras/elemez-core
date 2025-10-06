@@ -50,3 +50,11 @@ $response = [
 ];
 
 echo json_encode($response, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT);
+
+// Válasz visszaadása
+$json = json_encode($response, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT);
+echo $json;
+
+// Fejlesztési mód: JSON mentése fájlba
+$debugFile = __DIR__ . '/szoveg.json';
+file_put_contents($debugFile, $json);
