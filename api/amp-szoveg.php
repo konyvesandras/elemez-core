@@ -11,15 +11,21 @@ if ($origin) {
 
 $dataDir = __DIR__ . '/../data/';
 
-// Betöltjük a kiemeléseket
+// --- Metaadatok előállítása ---
+$textFile = $dataDir . 'elemzes.txt';
+$meta = [
+    'cim'     => basename($textFile),
+    'datum'   => file_exists($textFile) ? date("Y-m-d H:i", filemtime($textFile)) : '',
+    'szerzo'  => 'Ismeretlen',
+    'letoltes'=> file_exists($textFile) ? '../data/' . basename($textFile) : '',
+    'meret'   => file_exists($textFile) ? round(filesize($textFile) / 1024) . ' KB' : ''
+];
+
+// --- Szöveg + kiemelések ---
 $kiemeltekFile = $dataDir . 'kiemeltek.json';
 $kiemeltek = file_exists($kiemeltekFile) ? json_decode(file_get_contents($kiemeltekFile), true) : [];
 
-// Betöltjük az eredeti szöveget
-$textFile = $dataDir . 'elemzes.txt';
 $fullText = file_exists($textFile) ? file_get_contents($textFile) : '';
-
-// Szöveg feldarabolása és kiemelések alkalmazása
 $html = '';
 if ($fullText !== '') {
     $words = preg_split('/\s+/', $fullText);
@@ -34,26 +40,15 @@ if ($fullText !== '') {
     $html = implode(' ', $htmlWords);
 }
 
-// Metaadatok (példa)
-$meta = [
-    'fajlnev' => basename($textFile),
-    'datum'   => file_exists($textFile) ? date("Y-m-d H:i", filemtime($textFile)) : '',
-    'szerzo'  => 'Ismeretlen' // később bővíthető
-];
+// --- Záró rész ---
+$zaras = "Forrás: elemez-core rendszer";
 
-// Items tömb összeállítása
+// --- JSON összeállítása ---
 $response = [
     'items' => [
-        [
-            'tipus'  => 'meta',
-            'cim'    => $meta['fajlnev'],
-            'datum'  => $meta['datum'],
-            'szerzo' => $meta['szerzo']
-        ],
-        [
-            'tipus'  => 'szoveg',
-            'szoveg' => $html
-        ]
+        $meta,
+        [ 'szoveg' => $html ],
+        [ 'zaras'  => $zaras ]
     ]
 ];
 
@@ -62,5 +57,5 @@ $json = json_encode($response, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT);
 // Kimenet a böngészőnek
 echo $json;
 
-// Fejlesztési mód: JSON mentése fájlba is
-file_put_contents(__DIR__ . '/amp-szoveg.json', $json);
+// Mentés a public mappába is (felülírva!)
+file_put_contents(__DIR__ . '/../public/amp-szoveg.json', $json, LOCK_EX);
