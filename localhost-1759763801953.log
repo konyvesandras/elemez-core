@@ -1,0 +1,4 @@
+amp.js:147 Powered by AMP ⚡ HTML – Version 2509031727000 http://localhost/elemez-core/public/index.php#development=1
+log.js:232 [amp-list] Rendering list <amp-list width=​"auto" height=​"600" layout=​"fixed-height" src=​"./​amp-szoveg.json" class=​"i-amphtml-element i-amphtml-layout-fixed-height i-amphtml-layout-size-defined i-amphtml-built i-amphtml-layout" i-amphtml-layout=​"fixed-height" style=​"height:​ 3801px;​ --loader-delay-offset:​ 42ms !important;​">​…​</amp-list>​ with data (3) [{…}, {…}, {…}]
+validator_wasm.js:2667 AMP validation successful.
+validator_wasm.js:2667 Review our 'publishing checklist' to ensure successful AMP documentdistribution. See https://go.amp.dev/publishing-checklist
