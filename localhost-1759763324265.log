@@ -1,0 +1,198 @@
+amp.js:147 Powered by AMP ⚡ HTML – Version 2509031727000 http://localhost/elemez-core/public/index.php#development=1
+log.js:232 [amp-list] Rendering list <amp-list width=​"auto" height=​"600" layout=​"fixed-height" src=​"./​amp-szoveg.json" class=​"i-amphtml-element i-amphtml-layout-fixed-height i-amphtml-layout-size-defined i-amphtml-built i-amphtml-layout" i-amphtml-layout=​"fixed-height" style=​"height:​ 600px;​ --loader-delay-offset:​ 14ms !important;​">​…​</amp-list>​ with data (3) [{…}, {…}, {…}]
+validator_wasm.js:2668 AMP validation had errors:
+module$contents$amp$validator_logValidationResult @ validator_wasm.js:2668
+(anonymous) @ validator_wasm.js:2671
+(anonymous) @ validator_wasm.js:25
+(anonymous) @ validator_wasm.js:21
+(anonymous) @ validator_wasm.js:26
+b @ validator_wasm.js:27
+Promise.then
+f @ validator_wasm.js:27
+Promise.then
+f @ validator_wasm.js:27
+(anonymous) @ validator_wasm.js:27
+(anonymous) @ validator_wasm.js:27
+(anonymous) @ validator_wasm.js:27
+module$contents$amp$validator_validateUrlAndLog @ validator_wasm.js:2670
+(anonymous) @ validator-integration.js:31
+Promise.then
+(anonymous) @ validator-integration.js:29
+(anonymous) @ amp.js:78
+(anonymous) @ chunk.js:190
+(anonymous) @ chunk.js:409
+(anonymous) @ chunk.js:465
+Promise.then
+(anonymous) @ chunk.js:464
+(anonymous) @ chunk.js:483
+(anonymous) @ chunk.js:435
+Promise.then
+(anonymous) @ chunk.js:424
+(anonymous) @ chunk.js:465
+Promise.then
+(anonymous) @ chunk.js:464
+(anonymous) @ chunk.js:483
+(anonymous) @ chunk.js:435
+Promise.then
+(anonymous) @ chunk.js:424
+(anonymous) @ chunk.js:465
+Promise.then
+(anonymous) @ chunk.js:464
+(anonymous) @ chunk.js:483
+(anonymous) @ chunk.js:435
+Promise.then
+(anonymous) @ chunk.js:424
+(anonymous) @ chunk.js:465
+Promise.then
+(anonymous) @ chunk.js:464
+(anonymous) @ chunk.js:483
+(anonymous) @ chunk.js:435
+Promise.then
+(anonymous) @ chunk.js:424
+(anonymous) @ chunk.js:465
+Promise.then
+(anonymous) @ chunk.js:464
+(anonymous) @ chunk.js:483
+(anonymous) @ chunk.js:435
+Promise.then
+(anonymous) @ chunk.js:424
+(anonymous) @ chunk.js:465
+Promise.then
+(anonymous) @ chunk.js:464
+(anonymous) @ chunk.js:483
+(anonymous) @ chunk.js:368
+(anonymous) @ chunk.js:357
+Zs @ chunk.js:59
+(anonymous) @ amp.js:117
+(anonymous) @ version.js:11
+validator_wasm.js:2669 http://localhost/elemez-core/public/index.php:60:0 The tag 'style[amp-boilerplate]' is missing or incorrect, but required by 'amphtml engine script'. (see https://amp.dev/documentation/guides-and-tutorials/learn/spec/amphtml/#required-markup)
+module$contents$amp$validator_logValidationResult @ validator_wasm.js:2669
+(anonymous) @ validator_wasm.js:2671
+(anonymous) @ validator_wasm.js:25
+(anonymous) @ validator_wasm.js:21
+(anonymous) @ validator_wasm.js:26
+b @ validator_wasm.js:27
+Promise.then
+f @ validator_wasm.js:27
+Promise.then
+f @ validator_wasm.js:27
+(anonymous) @ validator_wasm.js:27
+(anonymous) @ validator_wasm.js:27
+(anonymous) @ validator_wasm.js:27
+module$contents$amp$validator_validateUrlAndLog @ validator_wasm.js:2670
+(anonymous) @ validator-integration.js:31
+Promise.then
+(anonymous) @ validator-integration.js:29
+(anonymous) @ amp.js:78
+(anonymous) @ chunk.js:190
+(anonymous) @ chunk.js:409
+(anonymous) @ chunk.js:465
+Promise.then
+(anonymous) @ chunk.js:464
+(anonymous) @ chunk.js:483
+(anonymous) @ chunk.js:435
+Promise.then
+(anonymous) @ chunk.js:424
+(anonymous) @ chunk.js:465
+Promise.then
+(anonymous) @ chunk.js:464
+(anonymous) @ chunk.js:483
+(anonymous) @ chunk.js:435
+Promise.then
+(anonymous) @ chunk.js:424
+(anonymous) @ chunk.js:465
+Promise.then
+(anonymous) @ chunk.js:464
+(anonymous) @ chunk.js:483
+(anonymous) @ chunk.js:435
+Promise.then
+(anonymous) @ chunk.js:424
+(anonymous) @ chunk.js:465
+Promise.then
+(anonymous) @ chunk.js:464
+(anonymous) @ chunk.js:483
+(anonymous) @ chunk.js:435
+Promise.then
+(anonymous) @ chunk.js:424
+(anonymous) @ chunk.js:465
+Promise.then
+(anonymous) @ chunk.js:464
+(anonymous) @ chunk.js:483
+(anonymous) @ chunk.js:435
+Promise.then
+(anonymous) @ chunk.js:424
+(anonymous) @ chunk.js:465
+Promise.then
+(anonymous) @ chunk.js:464
+(anonymous) @ chunk.js:483
+(anonymous) @ chunk.js:368
+(anonymous) @ chunk.js:357
+Zs @ chunk.js:59
+(anonymous) @ amp.js:117
+(anonymous) @ version.js:11
+validator_wasm.js:2669 http://localhost/elemez-core/public/index.php:60:0 The tag 'noscript > style[amp-boilerplate]' is missing or incorrect, but required by 'amphtml engine script'. (see https://amp.dev/documentation/guides-and-tutorials/learn/spec/amphtml/#required-markup)
+module$contents$amp$validator_logValidationResult @ validator_wasm.js:2669
+(anonymous) @ validator_wasm.js:2671
+(anonymous) @ validator_wasm.js:25
+(anonymous) @ validator_wasm.js:21
+(anonymous) @ validator_wasm.js:26
+b @ validator_wasm.js:27
+Promise.then
+f @ validator_wasm.js:27
+Promise.then
+f @ validator_wasm.js:27
+(anonymous) @ validator_wasm.js:27
+(anonymous) @ validator_wasm.js:27
+(anonymous) @ validator_wasm.js:27
+module$contents$amp$validator_validateUrlAndLog @ validator_wasm.js:2670
+(anonymous) @ validator-integration.js:31
+Promise.then
+(anonymous) @ validator-integration.js:29
+(anonymous) @ amp.js:78
+(anonymous) @ chunk.js:190
+(anonymous) @ chunk.js:409
+(anonymous) @ chunk.js:465
+Promise.then
+(anonymous) @ chunk.js:464
+(anonymous) @ chunk.js:483
+(anonymous) @ chunk.js:435
+Promise.then
+(anonymous) @ chunk.js:424
+(anonymous) @ chunk.js:465
+Promise.then
+(anonymous) @ chunk.js:464
+(anonymous) @ chunk.js:483
+(anonymous) @ chunk.js:435
+Promise.then
+(anonymous) @ chunk.js:424
+(anonymous) @ chunk.js:465
+Promise.then
+(anonymous) @ chunk.js:464
+(anonymous) @ chunk.js:483
+(anonymous) @ chunk.js:435
+Promise.then
+(anonymous) @ chunk.js:424
+(anonymous) @ chunk.js:465
+Promise.then
+(anonymous) @ chunk.js:464
+(anonymous) @ chunk.js:483
+(anonymous) @ chunk.js:435
+Promise.then
+(anonymous) @ chunk.js:424
+(anonymous) @ chunk.js:465
+Promise.then
+(anonymous) @ chunk.js:464
+(anonymous) @ chunk.js:483
+(anonymous) @ chunk.js:435
+Promise.then
+(anonymous) @ chunk.js:424
+(anonymous) @ chunk.js:465
+Promise.then
+(anonymous) @ chunk.js:464
+(anonymous) @ chunk.js:483
+(anonymous) @ chunk.js:368
+(anonymous) @ chunk.js:357
+Zs @ chunk.js:59
+(anonymous) @ amp.js:117
+(anonymous) @ version.js:11
+validator_wasm.js:2669 See also https://validator.amp.dev/?experimental_wasm=1#url=http%3A%2F%2Flocalhost%2Felemez-core%2Fpublic%2Findex.php
