@@ -39,4 +39,10 @@ $response = [
     'szoveg' => $html
 ];
 
-echo json_encode($response, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT);
+$json = json_encode($response, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT);
+
+// Kimenet a böngészőnek
+echo $json;
+
+// Fejlesztési mód: JSON mentése fájlba is
+file_put_contents(__DIR__ . '/amp-szoveg.json', $json);
