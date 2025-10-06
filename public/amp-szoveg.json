@@ -1,12 +1,6 @@
 {
   "items": [
-    {
-      "cim": "elemzes.txt",
-      "datum": "2025-10-06 14:37",
-      "szerzo": "Ismeretlen"
-    },
-    {
-      "szoveg": "Ez egy <span class=\"highlight\">kiemelt</span> szó a szövegben."
-    }
+    { "cim": "elemzes.txt", "datum": "2025-10-06 14:37", "szerzo": "Ismeretlen" },
+    { "szoveg": "Ez egy <span class=\"highlight\">kiemelt</span> szó a szövegben." }
   ]
 }
