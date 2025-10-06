@@ -1,0 +1,106 @@
+amp.js:147 Powered by AMP ⚡ HTML – Version 2509031727000 http://localhost/elemez-core/public/
+error-reporting.js:213 Response must contain an array or object at " items ". <amp-list width=​"auto" height=​"400" layout=​"fixed-height" src=​"../​api/​amp-szoveg.json" single-item class=​"i-amphtml-element i-amphtml-layout-fixed-height i-amphtml-layout-size-defined i-amphtml-built i-amphtml-layout i-amphtml-error i-amphtml-list-fetch-error" i-amphtml-layout=​"fixed-height" style=​"height:​ 400px;​ --loader-delay-offset:​ 18ms !important;​">​…​</amp-list>​ ​​​
+Us @ error-reporting.js:213
+(anonymous) @ error-reporting.js:132
+nt @ base.js:73
+(anonymous) @ log.js:398
+Y @ log.js:740
+(anonymous) @ amp-list.js:668
+(anonymous) @ amp-list.js:743
+Promise.then
+(anonymous) @ amp-list.js:737
+(anonymous) @ amp-list.js:305
+(anonymous) @ custom-element.js:1641
+(anonymous) @ promise.js:67
+c @ promise.js:66
+(anonymous) @ custom-element.js:1641
+(anonymous) @ resource.js:892
+za @ vsync-impl.js:456
+(anonymous) @ vsync-impl.js:413
+requestAnimationFrame
+(anonymous) @ vsync-impl.js:380
+(anonymous) @ vsync-impl.js:374
+(anonymous) @ vsync-impl.js:173
+(anonymous) @ vsync-impl.js:215
+(anonymous) @ resource.js:889
+(anonymous) @ resource.js:888
+(anonymous) @ resources-impl.js:1335
+h @ resources-impl.js:1659
+(anonymous) @ finite-state-machine.js:53
+(anonymous) @ resources-impl.js:651
+(anonymous) @ resources-impl.js:119
+(anonymous) @ pass.js:93
+(anonymous) @ pass.js:39
+(anonymous) @ timer-impl.js:64
+Promise.then
+(anonymous) @ timer-impl.js:59
+(anonymous) @ pass.js:78
+(anonymous) @ resources-impl.js:516
+(anonymous) @ resources-impl.js:450
+Promise.then
+(anonymous) @ resources-impl.js:449
+(anonymous) @ resources-impl.js:377
+(anonymous) @ resources-impl.js:494
+(anonymous) @ custom-element.js:419
+(anonymous) @ custom-element.js:1327
+(anonymous) @ custom-element.js:1250
+(anonymous) @ custom-element.js:379
+xu @ custom-element-registry.js:97
+Au @ custom-element-registry.js:82
+(anonymous) @ custom-element-registry.js:40
+(anonymous) @ extensions-impl.js:390
+(anonymous) @ extensions-impl.js:372
+rs @ style-installer.js:59
+(anonymous) @ extensions-impl.js:368
+(anonymous) @ extensions-impl.js:340
+(anonymous) @ extensions-impl.js:445
+(anonymous) @ extensions-impl.js:339
+(anonymous) @ amp-list.js:1704
+f @ amp-list-0.1.css.js:1
+(anonymous) @ extensions-impl.js:162
+(anonymous) @ runtime.js:216
+Promise.then
+(anonymous) @ runtime.js:212
+(anonymous) @ chunk.js:190
+(anonymous) @ chunk.js:409
+(anonymous) @ chunk.js:465
+Promise.then
+(anonymous) @ chunk.js:464
+(anonymous) @ chunk.js:483
+(anonymous) @ chunk.js:368
+(anonymous) @ chunk.js:357
+Zs @ chunk.js:59
+(anonymous) @ runtime.js:326
+s @ runtime.js:227
+(anonymous) @ runtime.js:268
+(anonymous) @ timer-impl.js:71
+setTimeout
+(anonymous) @ timer-impl.js:77
+(anonymous) @ runtime.js:521
+gc @ runtime.js:250
+(anonymous) @ runtime.js:355
+(anonymous) @ chunk.js:190
+(anonymous) @ chunk.js:409
+(anonymous) @ chunk.js:465
+Promise.then
+(anonymous) @ chunk.js:464
+(anonymous) @ chunk.js:483
+(anonymous) @ chunk.js:435
+Promise.then
+(anonymous) @ chunk.js:424
+(anonymous) @ chunk.js:465
+Promise.then
+(anonymous) @ chunk.js:464
+(anonymous) @ chunk.js:483
+(anonymous) @ chunk.js:435
+Promise.then
+(anonymous) @ chunk.js:424
+(anonymous) @ chunk.js:465
+Promise.then
+(anonymous) @ chunk.js:464
+(anonymous) @ chunk.js:483
+(anonymous) @ chunk.js:368
+(anonymous) @ chunk.js:357
+Zs @ chunk.js:59
+(anonymous) @ amp.js:117
+(anonymous) @ version.js:11
