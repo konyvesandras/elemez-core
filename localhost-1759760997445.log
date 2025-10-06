@@ -1,0 +1,66 @@
+amp.js:147 Powered by AMP ⚡ HTML – Version 2509031727000 http://localhost/elemez-core/public/
+error-reporting.js:213 Response must contain an array or object at " items ". <amp-list width=​"auto" height=​"400" layout=​"fixed-height" src=​"../​api/​amp-szoveg.json" class=​"i-amphtml-element i-amphtml-layout-fixed-height i-amphtml-layout-size-defined i-amphtml-built i-amphtml-layout i-amphtml-error i-amphtml-list-fetch-error" i-amphtml-layout=​"fixed-height" style=​"height:​ 400px;​ --loader-delay-offset:​ 41ms !important;​">​…​</amp-list>​ ​​​
+Us @ error-reporting.js:213
+(anonymous) @ error-reporting.js:132
+nt @ base.js:73
+(anonymous) @ log.js:398
+Y @ log.js:740
+(anonymous) @ amp-list.js:668
+(anonymous) @ amp-list.js:743
+Promise.then
+(anonymous) @ amp-list.js:737
+(anonymous) @ amp-list.js:305
+(anonymous) @ custom-element.js:1641
+(anonymous) @ promise.js:67
+c @ promise.js:66
+(anonymous) @ custom-element.js:1641
+(anonymous) @ resource.js:892
+za @ vsync-impl.js:456
+(anonymous) @ vsync-impl.js:413
+requestAnimationFrame
+(anonymous) @ vsync-impl.js:380
+(anonymous) @ vsync-impl.js:374
+(anonymous) @ vsync-impl.js:173
+(anonymous) @ vsync-impl.js:215
+(anonymous) @ input.js:169
+Promise.then
+(anonymous) @ input.js:167
+(anonymous) @ input.js:87
+(anonymous) @ input.js:113
+(anonymous) @ input.js:86
+(anonymous) @ resources-impl.js:237
+Promise.then
+(anonymous) @ resources-impl.js:231
+t @ resources-impl.js:217
+Nn @ service-helpers.js:350
+In @ service-helpers.js:206
+ar @ index.js:440
+t @ mutator-impl.js:36
+Nn @ service-helpers.js:350
+In @ service-helpers.js:206
+sr @ index.js:370
+t @ standard-actions-impl.js:65
+Nn @ service-helpers.js:350
+Pn @ service-helpers.js:113
+(anonymous) @ standard-actions-impl.js:618
+(anonymous) @ core-services.js:131
+Ya @ core-services.js:75
+(anonymous) @ amp.js:53
+(anonymous) @ chunk.js:190
+(anonymous) @ chunk.js:409
+(anonymous) @ chunk.js:465
+Promise.then
+(anonymous) @ chunk.js:464
+(anonymous) @ chunk.js:483
+(anonymous) @ chunk.js:435
+Promise.then
+(anonymous) @ chunk.js:424
+(anonymous) @ chunk.js:465
+Promise.then
+(anonymous) @ chunk.js:464
+(anonymous) @ chunk.js:483
+(anonymous) @ chunk.js:368
+(anonymous) @ chunk.js:357
+Zs @ chunk.js:59
+(anonymous) @ amp.js:117
+(anonymous) @ version.js:11
