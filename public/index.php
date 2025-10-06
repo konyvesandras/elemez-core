@@ -27,27 +27,13 @@
   <!-- Fontos: a src útvonal a public mappában levő JSON-ra mutasson -->
   <amp-list width="auto" height="600" layout="fixed-height"
             src="amp-szoveg.json">
-    <template type="amp-mustache">
-      {{#items}}
-        {{#cim}}
-          <div class="meta">
-            <strong>{{cim}}</strong><br>
-            {{#datum}}<em>{{datum}}</em><br>{{/datum}}
-            {{#szerzo}}<span>{{szerzo}}</span>{{/szerzo}}
-          </div>
-        {{/cim}}
-
-        {{#szoveg}}
-          <div class="content">
-            {{{szoveg}}}
-          </div>
-        {{/szoveg}}
-      {{/items}}
-
-      {{^items}}
-        <div class="empty">Nincs megjeleníthető tartalom.</div>
-      {{/items}}
-    </template>
+<template type="amp-mustache">
+  {{#.}}
+    {{#cim}}<div class="meta"><strong>{{cim}}</strong><br>{{#datum}}<em>{{datum}}</em><br>{{/datum}}{{#szerzo}}<span>{{szerzo}}</span>{{/szerzo}}</div>{{/cim}}
+    {{#szoveg}}<div class="content">{{{szoveg}}}</div>{{/szoveg}}
+  {{/.}}
+</template>
+    
   </amp-list>
 
 </body>
