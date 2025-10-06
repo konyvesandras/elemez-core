@@ -34,9 +34,27 @@ if ($fullText !== '') {
     $html = implode(' ', $htmlWords);
 }
 
-// Csak a szükséges mezőt adjuk vissza
+// Metaadatok (példa)
+$meta = [
+    'fajlnev' => basename($textFile),
+    'datum'   => file_exists($textFile) ? date("Y-m-d H:i", filemtime($textFile)) : '',
+    'szerzo'  => 'Ismeretlen' // később bővíthető
+];
+
+// Items tömb összeállítása
 $response = [
-    'szoveg' => $html
+    'items' => [
+        [
+            'tipus'  => 'meta',
+            'cim'    => $meta['fajlnev'],
+            'datum'  => $meta['datum'],
+            'szerzo' => $meta['szerzo']
+        ],
+        [
+            'tipus'  => 'szoveg',
+            'szoveg' => $html
+        ]
+    ]
 ];
 
 $json = json_encode($response, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT);
