@@ -26,30 +26,41 @@
     .highlight {
       background: #ffeb3b;
     }
+    .meta {
+      margin-bottom: 1rem;
+      padding: 0.5rem;
+      background: #f5f5f5;
+      border-left: 4px solid #ccc;
+    }
+    .content {
+      white-space: pre-wrap;
+    }
   </style>
 </head>
 <body>
 
   <h1>Szövegelemzés – elemez-core</h1>
-<amp-list width="auto" height="400" layout="fixed-height"
-          src="../api/amp-szoveg.json">
-  <template type="amp-mustache">
-    {{#items}}
-      {{#tipus == "meta"}}
-        <div class="meta">
-          <strong>{{cim}}</strong><br>
-          <em>{{datum}}</em><br>
-          <span>{{szerzo}}</span>
-        </div>
-      {{/tipus == "meta"}}
 
-      {{#tipus == "szoveg"}}
-        <div class="content">
-          {{{szoveg}}}
-        </div>
-      {{/tipus == "szoveg"}}
-    {{/items}}
-  </template>
-</amp-list>
+  <amp-list width="auto" height="600" layout="fixed-height"
+            src="amp-szoveg.json">
+    <template type="amp-mustache">
+      {{#items}}
+        {{#cim}}
+          <div class="meta">
+            <strong>{{cim}}</strong><br>
+            <em>{{datum}}</em><br>
+            <span>{{szerzo}}</span>
+          </div>
+        {{/cim}}
+
+        {{#szoveg}}
+          <div class="content">
+            {{{szoveg}}}
+          </div>
+        {{/szoveg}}
+      {{/items}}
+    </template>
+  </amp-list>
+
 </body>
 </html>
